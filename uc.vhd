@@ -6,9 +6,7 @@
 -- Especificações: entradas: CK, RT, IC, DC, RP, PP, MO, ZR, PO, NG, ES, FT
 -- 			 saidas: Sel_mxa[2..0], Sel_mxb[2..0], Sel_ula[1..0],Lda, Ldb, Ldc,IT
 --				 saidas externas: MFC, MEV, LDM
--- Esse código é um padrão de referência (template) para o código da UC que deve 
--- controlar o fluxo de dados do Sistema de Supervisão de Pedágio Aberto do
--- Projeto 2 do Laboratório de Sistemas Digitais II.
+-- Esse código é um padrão de referência (template) para o código da UC que deve
 --****************************
 
 library ieee;
