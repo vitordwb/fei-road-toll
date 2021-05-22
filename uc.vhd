@@ -1,8 +1,7 @@
 --****************************
 -- CENTRO UNIVERSITARIO FEI
 -- Sistemas Digitais II  -  Projeto 2  - 1° Semestre de 2021
--- Prof. Valter F. Avelino - 01/2021
--- Componente VHDL: Unidade de Controle do Sisttema de Pedágio =>UC_SPA_EXEMPLO.vhd
+-- Componente VHDL: Unidade de Controle do Sisttema de Pedágio => UC.vhd
 -- Rev. 0
 -- Especificações: entradas: CK, RT, IC, DC, RP, PP, MO, ZR, PO, NG, ES, FT
 -- 			 saidas: Sel_mxa[2..0], Sel_mxb[2..0], Sel_ula[1..0],Lda, Ldb, Ldc,IT
