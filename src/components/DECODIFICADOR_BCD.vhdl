@@ -1,7 +1,5 @@
 --*****************************************************************************
 -- CENTRO UNIVERSITARIO FEI
--- Sistemas Digitais II  -  Projeto 2  - 1º Semestre de 2021
--- Prof. Valter F. Avelino - 01/2021
 -- Componente VHDL: Decodificador BCD / 7 Segmentos => DECODIFICADOR_BCD.vhd
 -- Rev. 0
 -- Especificacoes: Entradas: Q[7..0]
