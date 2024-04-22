@@ -16,6 +16,7 @@
 -- Esse componente é assíncrono. 
 -- Componente para aplicação no Projeto 2 do Laboratóro de Sistemas Digitais II 
 --********************************************************************************
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
@@ -23,13 +24,13 @@ use IEEE.NUMERIC_STD.ALL;
 entity ULA8 is
    port
    (
-      A, B		: in std_logic_vector(7 downto 0); -- vetores de entrada
-      Op			: in std_logic_vector(1 downto 0); -- código de operação
-      ULA_out	: out std_logic_vector(7 downto 0);-- vetor de saída
-      ZR			: out std_logic; 			           -- resultado igual a zero 
-      PO			: out std_logic; 						  -- resultado positivo 
-      NG			: out std_logic; 						  -- resultado negativo
-      ES			: out std_logic 						  -- resultado maoir que 255
+      A, B		: in std_logic_vector(7 downto 0);  -- vetores de entrada
+      Op			: in std_logic_vector(1 downto 0);  -- código de operação
+      ULA_out	: out std_logic_vector(7 downto 0); -- vetor de saída
+      ZR			: out std_logic; 			            -- resultado igual a zero 
+      PO			: out std_logic; 						   -- resultado positivo 
+      NG			: out std_logic; 						   -- resultado negativo
+      ES			: out std_logic 						   -- resultado maoir que 255
    );
 end entity ULA8;
  
